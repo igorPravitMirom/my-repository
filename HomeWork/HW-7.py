@@ -14,3 +14,4 @@ for i in lst:
 # print('Минимальное среди простых чисел: ', min(simple_num_list))
 # print('Максимальное среди не простых:', max(not_simple_num_list))
 print('Вносим изменения')
+ad = 12312
