@@ -11,5 +11,6 @@ for i in lst:
         simple_num_list.append(i)
     else:
         not_simple_num_list.append(i)
-print('Минимальное среди простых чисел: ', min(simple_num_list))
-print('Максимальное среди не простых:', max(not_simple_num_list))
+# print('Минимальное среди простых чисел: ', min(simple_num_list))
+# print('Максимальное среди не простых:', max(not_simple_num_list))
+print('Вносим изменения')
