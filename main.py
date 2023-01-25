@@ -2281,3 +2281,6 @@ from random import randint
 # hello2('Hi')
 
 print('hello')
+
+a = 5
+print(a)
