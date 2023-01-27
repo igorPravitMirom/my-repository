@@ -2215,18 +2215,19 @@ from random import randint
 # summa(5, 2)  # Сумма: 5 и 2 =  7
 # sub(5, 2)  # Разность: 5 и 2 = 3
 
-# def multiply(num):
-#     def decor(fn):
-#         def wrap(mult):
-#             return num * fn(mult)
-#         return wrap
-#     return decor
-#
-# @multiply(3)
-# def return_num(num):
-#     return num
-#
-# print(return_num(5))
+def multiply(num):
+    def decor(fn):
+        def wrap(mult):
+            print('1',mult)
+            return num * fn(mult)
+        return wrap
+    return decor
+
+@multiply(3)
+def return_num(num):
+    return num
+
+print(return_num(5))
 
 
 # def typed(*args, **kwargs):
@@ -2280,7 +2281,7 @@ from random import randint
 # hello('world!')
 # hello2('Hi')
 
-print('hello')
-
-a = 5
-print(a)
+# print('hello')
+#
+# a = 5
+# print(a)
